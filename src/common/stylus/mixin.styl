@@ -1,6 +1,7 @@
 //传入图片名称或url带名称  返回资源文件
 bg-image($url)
     background-image: url("imgs/"+$url+"@2x.png")
+    background-repeat:none
     //当设备像素比为3的时候加载大图
     @media (-weblit-min-device-pixel-ratio:3),(mon-device-pixel-ratio:3)
         background-image:url("imgs/"+$url+"@3x.png")
