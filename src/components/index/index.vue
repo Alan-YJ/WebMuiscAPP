@@ -7,6 +7,20 @@
         </a>
       </li>
     </Slider>
+    <div class='songsList'>
+      <div class='title'>
+        热门歌单推荐
+      </div>
+      <ul>
+        <li class='songs-item'>
+          <img src="" class='pic'>
+          <div>
+            <div class='title'></div>
+            <div class='desc'></div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 <script>
