@@ -104,6 +104,9 @@ export default {
       }
       this.$refs.slider.style.width = w + "px";
     }
+  },
+  destroyed(){
+    clearTimeout(this.timer)
   }
 };
 </script>

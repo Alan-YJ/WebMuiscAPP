@@ -6,6 +6,7 @@ import App from './App'
 import router from './router'
 import fastclick from 'fastclick'
 import store from './store'
+import vueLazyLoad from 'vue-lazyload'
 
 import 'common/stylus/index.styl'
 
@@ -13,6 +14,10 @@ import 'common/stylus/index.styl'
 fastclick.attach(document.body)
 
 Vue.config.productionTip = false
+
+Vue.use(vueLazyLoad,{
+  loading:require('./common/image/img-loading.gif')
+})
 
 /* eslint-disable no-new */
 new Vue({

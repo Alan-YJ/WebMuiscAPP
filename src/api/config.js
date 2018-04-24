@@ -5,6 +5,7 @@ export const params = {
     outCharset:'utf-8',
     platform:'h5',
     uin:0
+    
 }
 
 export const options = {

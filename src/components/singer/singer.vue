@@ -1,5 +1,7 @@
 <template>
-  <div class='wrapper'></div>
+  <div class='singer-wrapper'>
+    
+  </div>
 </template>
 <script>
 export default {
